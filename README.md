@@ -7,7 +7,10 @@ Search Github and get a styled list of results based on parameters or use full u
 pipe onto other bash commands like `pbcopy` and `grep`.
 
 ## Installation
-Download, cd into directory and run `$ npm install -g`
+Download, cd into directory and run:
+`$ npm install -g`
+
+## Options
 
 ~~~
     Usage: gitsearch <keywords>
@@ -20,3 +23,13 @@ Download, cd into directory and run `$ npm install -g`
     -l   --language [language]  Filter by repository language
     -f   --full [full]          Full output without any styling (pure JSON)
 ~~~
+
+## Example usage
+
+Will search for keywords 'bbc', language 'ruby' with full output to JSON and `grep` Twitter
+
+`gitsearch bbc -l ruby -f | grep Twitter`
+
+Will search for 'scrape' keyword under language 'PHP'
+
+`gitsearch scrape -l PHP`

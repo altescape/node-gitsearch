@@ -1,7 +1,7 @@
 Git Search
 ==========
 
-A command line tool utilizing node 
+A command line tool utilizing NodeJS, install using NPM.
 
 Search Github and get a styled list of results based on parameters or use full unstyled JSON output to 
 pipe onto other bash commands like `pbcopy` and `grep`.
@@ -31,8 +31,6 @@ Download, cd into directory and run:
 Will search for 'scrape' keyword under language 'PHP'
 
 `gitsearch scrape -l PHP`
-
----
 
 ### Pipe output to other commands
 Will search for keywords 'bbc', language 'ruby' with full output to JSON and `grep` Twitter

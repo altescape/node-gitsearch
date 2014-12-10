@@ -1,7 +1,12 @@
 Git Search
 ==========
 
-A command line tool that searches Github and returns a styled list of results based on parameters.
+A command line tool utilizing node 
+
+Search Github and get a styled list of results based on parameters or use full unstyled JSON output to 
+pipe onto other bash commands like `pbcopy` and `grep`.
+
+*Install*: download, cd into directory and run `npm install -g`
 
 ~~~
     Usage: gitsearch <keywords>
